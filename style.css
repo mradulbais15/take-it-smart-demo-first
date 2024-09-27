@@ -659,9 +659,21 @@ input:hover {
 
 @media (max-width: 480px) {
     .card {
-        width: 100%;
+        width: 80%;
+        margin-bottom: 26px;
         /* 1 card in a row on extra small screens */
     }
+
+
+        .card-image img {
+            width: 80%;
+            height: 30vh;
+            /* Fixed height for uniformity */
+            object-fit: contain;
+            /* Ensures the image covers the area without distorting */
+            transition: transform 0.5s;
+            /* For zoom-out effect */
+        }
 
     .section-heading {
         font-size: 2em;
@@ -695,7 +707,7 @@ input:hover {
     color: #141720;
     text-align: center;
     animation: slideIn 1s ease-in-out;
-    margin-top: 1em;
+    margin-top: 3em;
 }
 
 
