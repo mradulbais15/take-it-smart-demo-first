@@ -889,6 +889,22 @@ animation: fadeIn 0.5s forwards 0.2s; */
     /* Scale up on hover */
 }
 
+
+.copyright {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #141720;
+    /* or your preferred background color */
+    font-size: 14px;
+    /* Adjust the font size as needed */
+}
+
+.copyright p {
+    margin: 0;
+    color: #F5BD60;
+    /* Use your preferred text color */
+}
+
 /* Responsive Styles */
 @media (max-width: 768px) {
     .footer-links {
