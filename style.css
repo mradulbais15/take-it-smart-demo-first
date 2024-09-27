@@ -710,6 +710,10 @@ input:hover {
     margin-top: 3em;
 }
 
+.right-heading{
+    font-weight: 900;
+}
+
 
 /* transform: translateY(-20px);
 animation: fadeIn 0.5s forwards 0.2s; */
@@ -782,7 +786,7 @@ animation: fadeIn 0.5s forwards 0.2s; */
 }
 
 .right-section {
-    width: 40%;
+        width: 100%;
     padding: 2em;
     animation: fadeIn 1s ease-in-out;
     /* Add fade-in animation */
